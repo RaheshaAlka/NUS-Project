@@ -1,0 +1,248 @@
+body{
+    margin:0;
+}
+.logo{
+    margin:5px;
+}
+nav{
+    height: 100px;
+    background-color: rgb(238, 238, 238);
+    border-top: solid;
+    border-top-width:10px;
+    border-top-color:#003d7a;
+    }
+
+.search{
+    width:max-content;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    margin:20px;
+    transition: backround 0.25s;
+    width:250px;
+    position: relative;
+    top: 7px;
+}
+
+.search:focus-within{
+    background: #fffffff1;
+}
+
+.search-input{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    outline: none;
+    border:none;
+    background: transparent;
+}
+
+.home{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1000px;
+}
+
+.email{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1080px;
+}
+.library{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1160px;
+}
+.faculties{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1240px;
+}
+.alumni{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left :1320px;
+}
+.staff{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1395px;
+}
+.home:hover,.email:hover,.library:hover,.faculties:hover,.alumni:hover,.staff:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+h1{font-family: Arial, Helvetica, sans-serif;}
+p{font-family: Arial, Helvetica, sans-serif;}
+
+footer{
+    background-color: #003d7a;
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 75px;
+    margin-top:150px;
+    width:1515px;
+    height:100px;
+    position:fixed bottom;
+}
+
+.emailarea{
+    width:400px;
+    height:720px;
+    background-color: #134475;
+    position:absolute;
+    top:223px;
+    left:1000px;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    font-size: larger;
+}
+.loginbox{
+    padding-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.username,.password{
+    width:max-content;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    margin:10px;
+    transition: backround 0.25s;
+    width:250px;
+    border: none;
+}
+.sc{
+    margin-left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.emailsubmit{
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+    position: relative;
+    left:10px;
+}
+
+.library1, .library2, .library3 {
+    height: 400px;
+    width: 300px;
+    margin:50px;
+    box-shadow: 5px 5px 2px rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top:15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.library1{
+    background-color: #1e3249f1;
+}
+.library2{
+    background-color: rgb(182, 22, 22);
+}
+.library3{
+    background-color: rgb(31, 97, 31);
+}
+.limg1{
+   position: absolute;
+   top:1135px;
+   left:206px;
+}
+.limg2{
+   position: absolute;
+   top:1135px;
+   left:606px;
+}
+.limg3{
+    position: absolute;
+    top:1135px;
+    left:1006px;
+}
+
+.admissionarea{
+    width:400px;
+    height:729px;
+    background-color:#134475;
+    position:absolute;
+    top:224px;
+    left:1000px;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    font-size: larger;
+}
+.admissionbox{
+    padding-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;}
+.admissioninput{
+    width:max-content;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    margin:10px;
+    width:250px;
+    border: none;
+}
+.facultyselect{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    margin:10px;
+    width:250px;
+    border: none;
+}

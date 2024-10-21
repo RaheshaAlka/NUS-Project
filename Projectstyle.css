@@ -1,0 +1,269 @@
+body{
+    margin:0;
+}
+.logo{
+    margin:5px;
+}
+nav{
+    height: 100px;
+    background-color: rgb(238, 238, 238);
+    border-top: solid;
+    border-top-width:10px;
+    border-top-color:#003d7a;
+    }
+
+.search{
+    width:max-content;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    margin:20px;
+    transition: backround 0.25s;
+    width:250px;
+    position: relative;
+    top: 7px;
+}
+
+.search:focus-within{
+    background: #fffffff1;
+}
+
+.search-input{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    outline: none;
+    border:none;
+    background: transparent;
+}
+
+.home{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1000px;
+}
+
+.email{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1080px;
+}
+.library{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1160px;
+}
+.faculties{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1240px;
+}
+.alumni{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left :1320px;
+}
+.staff{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    float:right;
+    position: absolute;
+    bottom:535px;
+    left:1395px;
+}
+.home:hover,.email:hover,.library:hover,.faculties:hover,.alumni:hover,.staff:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+h1{font-family: Arial, Helvetica, sans-serif;}
+p{font-family: Arial, Helvetica, sans-serif;}
+
+.area{
+    background-color: #175ba0;
+    width:1515px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    position: relative;
+    bottom:25px;
+    border-bottom: solid;
+    border-bottom-color: rgb(230, 230, 230);
+    border-bottom-width: 10px;
+}
+
+.aboutus{
+    text-align: center;
+    text-justify: initial;
+    max-width: 50%;
+    padding-left: 375px;
+    color: white;
+}
+
+article{
+    margin-top: 50px;
+    padding:100px;
+    border:solid;
+    border-width: 2px;
+    border-color: rgb(208, 207, 207);
+    width: 800px;
+    position:relative;
+    left:245px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+}
+
+.n1{
+    float: right;
+    position:absolute;
+    height: 325px;
+    width: 495px;
+    left: 520px;
+    bottom: 0px;
+}
+
+.news{
+    width:300px;
+    position: relative;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+.n2{ 
+    float: right;
+    position:absolute;
+    height: 325px;
+    width: 495px;
+    overflow: hidden;
+    left: 521px;
+    bottom:-1px;
+}
+
+footer{
+    background-color:#003d7a;
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 75px;
+    width:1515px;
+    height:100px;
+    margin-top: 50px;
+    position:fixed bottom;
+}
+
+.imageadmissions{
+    margin-top: 100px;
+    width: 1515px;
+    height: 500px;
+    border-bottom: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(221, 221, 221);
+}
+.bodyadmissions{
+    width:400px;
+    height: 499px;
+    background-color: #175ba0;
+    position: absolute;
+    top:2056px;
+    left:1000px;
+    
+}
+.textadmissions{
+    text-align: justify;
+    color:white;
+    width :350px;
+    position:relative;
+    left :25px;
+    top: 50px;
+    font-size: larger;
+}
+.buttonadmission{
+    width: 80px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.buttonadmission:hover{
+    background-color: rgb(217, 141, 0);
+}
+
+.highlights{
+    margin: 100px;
+}
+
+.imgh:hover{
+    filter:brightness(75%)
+}
+.imgh{
+    padding: 5px;
+}
+
+.Bloc{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20;
+    border-radius: 10px;
+    border: none;
+    background-color: #175ba0;
+    color: white;
+    margin: 5px;
+}
+.Bsmd{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20;
+    border-radius: 10px;
+    border: none;
+    background-color:orange;
+    color: white;
+    margin: 5px;
+}
+.Bloc:hover{
+    background-color: #003d7a;
+}
+.Bsmd:hover{
+    background-color: rgb(190, 123, 0);
+}
